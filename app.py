@@ -55,7 +55,7 @@ with app.app_context():
 # ruta general
 @app.route('/', methods=["GET"])
 def home():
-    return "Welcome API!"
+    return "Welcome API ya!"
 
 # Ruta para manejar los productos
 @app.route('/products', methods=['GET', 'POST'])
